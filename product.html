@@ -10,11 +10,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Telex&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            /* background-color: #2196F3; */
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .grid-item {
+            padding: 10px;
+            /* font-size: 20px; */
+            /* text-align: center; */
+            margin: 20px;
+            box-shadow: 5px 7px 40px gray;
+            border-radius: 10px;
+        }
+
+        /* .divr {
+            width: 50%;
+        } */
+        .container {
+            display: flex;
+            width: 50%;
+            /* padding: 10px;
+            margin: 10px; */
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Maruf Hasan Rion
-    2010597 -->
     <header>
         <div class="topnav">
             <a href="index.html">Home</a>
@@ -22,6 +48,52 @@
             <a href="contact.html">Contact</a>
         </div>
     </header>
+    <main>
+        <h2 class="E"> Discover Our Popular
+            Courses </h2>
+        <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page
+            when looking at its layout. </p>
+
+        <div class="grid-container">
+            <div class="grid-item ">
+                <div class="container">
+                    <div>
+                        <img src="img/course-1.png" alt="">
+                    </div>
+
+                    <div>
+                        <h5>Fundamental Of UI/UX Design</h5>
+                        <p>Some quick example text to build on the card title
+                            and make up the bulk of the card.</p>
+                        <h6>price:20$</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="p-4">
+                <h5 class="fw-bold">Fundamental Of UI/UX Design</h5>
+                <p>Some quick example text to build on the card title
+                    and make up the bulk of the card.</p>
+                <h6 class="text-primary fw-bold">price:20$</h6>
+            </div> -->
+            <div class="grid-item">
+                <img src="img/course-2.png" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/course-3.png" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/course-4.png" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/course-5.png" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/course-6.png" alt="">
+            </div>
+
+        </div>
+    </main>
 </body>
 
 </html>
