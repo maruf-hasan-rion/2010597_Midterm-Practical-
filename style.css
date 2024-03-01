@@ -60,6 +60,7 @@ body {
     display: flex;
     color: white;
 
+
 }
 
 .text-img {
@@ -88,8 +89,8 @@ footer h5 {
 }
 
 .f {
-    background-color: burlywood;
-    padding: 1%;
+    background-color: blue;
+    padding: 2%;
     margin-top: 10px;
     text-align: center;
 }
